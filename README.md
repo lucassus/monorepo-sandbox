@@ -8,3 +8,4 @@
 
 - [x] TypeScript composite
 - [ ] Add eslint
+- [ ] Better code organization: apps, libs etc
