@@ -5,6 +5,7 @@
     "target": "es6",
     "sourceMap": true,
     "declaration": true,
+    "declarationMap": false, // Fixes go-to-definition in code editors
 
     /* Strict Type-Checking Options */
     "strict": true,

@@ -7,6 +7,5 @@
 ## TODOs
 
 - [x] TypeScript composite
-- [ ] Fix ctrl+click in Intellij
 - [ ] Add some tests
 - [ ] Add eslint
