@@ -1,11 +1,7 @@
 {
   "extends": "../../tsconfig.json",
   "compilerOptions": {
-    "outDir": "./dist",
-    "baseUrl": ".",
-    "paths": {
-      "@sandbox/common": ["../common/src"]
-    }
+    "outDir": "./dist"
   },
   "include": ["./src/**/*"],
   "exclude": ["./src/**/*.test.ts"],

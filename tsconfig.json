@@ -12,6 +12,11 @@
 
     /* Module Resolution Options */
     "moduleResolution": "node",
-    "esModuleInterop": true
+    "esModuleInterop": true,
+
+    "baseUrl": ".",
+    "paths": {
+      "@sandbox/*": ["./packages/*/src"]
+    }
   }
 }
