@@ -12,8 +12,10 @@
     "typescript": "4.0.5"
   },
   "scripts": {
-    "clean": "yarn workspace @sandbox/string-utils clean && yarn workspace @sandbox/common clean",
-    "build": "yarn workspace @sandbox/string-utils build && yarn workspace @sandbox/common build",
+    "clean": "yarn workspaces run clean",
+    "typecheck": "yarn workspaces run typecheck",
+    "build": "yarn workspaces run build",
+    "dev": "yarn workspace @sandbox/app dev",
     "start": "yarn workspace @sandbox/app start"
   }
 }
