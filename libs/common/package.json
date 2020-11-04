@@ -15,6 +15,7 @@
   "scripts": {
     "clean": "rimraf dist *.tsbuildinfo",
     "typecheck": "yarn tsc --noEmit",
+    "test": "yarn jest",
     "build": "yarn tsc --build"
   }
 }

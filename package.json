@@ -16,7 +16,7 @@
     "clean": "yarn workspaces run clean",
     "typecheck": "yarn workspaces run typecheck",
     "build": "yarn workspaces run build",
-    "test": "jest",
+    "test": "yarn workspaces run test",
     "dev": "yarn workspace @sandbox/app dev",
     "start": "yarn workspace @sandbox/app start"
   }
