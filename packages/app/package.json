@@ -6,6 +6,7 @@
     "@sandbox/common": "1.0.0"
   },
   "scripts": {
+    "clean": "echo Skipping...",
     "start": "node src/index.js"
   }
 }
