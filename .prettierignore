@@ -1,3 +1,4 @@
 node_modules
+apps/*/build
 apps/*/dist
 libs/*/dist
