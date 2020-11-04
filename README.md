@@ -7,5 +7,4 @@
 ## TODOs
 
 - [x] TypeScript composite
-- [ ] Fix ctrl+click navigation (again...)
 - [ ] Add eslint
