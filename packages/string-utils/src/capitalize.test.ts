@@ -1,4 +1,4 @@
-import { capitalize } from ".";
+import { capitalize } from "./capitalize";
 
 test(".capitalize", () => {
   expect(capitalize("foo")).toEqual("Foo");
