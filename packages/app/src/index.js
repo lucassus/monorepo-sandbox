@@ -1,3 +1,3 @@
 const { sayHello } = require("@monorepo/common");
 
-console.log(sayHello("Luke"));
+console.log(sayHello("luke"));

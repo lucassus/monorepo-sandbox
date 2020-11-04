@@ -1,3 +1,5 @@
+import { capitalize } from "@monorepo/string-utils";
+
 export function sayHello(name: string): string {
-  return `Hello ${name}!`;
+  return `Hello ${capitalize(name)}!`;
 }
