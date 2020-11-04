@@ -6,6 +6,7 @@
   "types": "dist/index",
   "scripts": {
     "clean": "rimraf dist tsconfig.tsbuildinfo",
+    "typecheck": "yarn tsc --noEmit",
     "build": "yarn tsc --build"
   }
 }
