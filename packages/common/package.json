@@ -1,5 +1,10 @@
 {
   "name": "@monorepo/common",
   "version": "1.0.0",
-  "main": "src/index.js"
+  "main": "dist/index",
+  "types": "dist/index",
+  "scripts": {
+    "clean": "rimraf dist",
+    "build": "yarn tsc --build"
+  }
 }
