@@ -14,7 +14,7 @@
   "scripts": {
     "clean": "yarn workspaces run clean",
     "typecheck": "yarn workspaces run typecheck",
-    "build": "yarn workspace @sandbox/string-utils build && yarn workspace @sandbox/common build && yarn workspace @sandbox/app build",
+    "build": "yarn workspaces run build",
     "dev": "yarn workspace @sandbox/app dev",
     "start": "yarn workspace @sandbox/app start"
   }
