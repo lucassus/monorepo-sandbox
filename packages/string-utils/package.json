@@ -5,7 +5,7 @@
   "main": "dist/index",
   "types": "dist/index",
   "scripts": {
-    "clean": "rimraf dist tsconfig.tsbuildinfo",
+    "clean": "rimraf dist *.tsbuildinfo",
     "typecheck": "yarn tsc --noEmit",
     "build": "yarn tsc --build"
   }

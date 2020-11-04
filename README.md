@@ -7,5 +7,5 @@
 ## TODOs
 
 - [x] TypeScript composite
-- [ ] Add some tests
 - [ ] Add eslint
+- [ ] Better code organization: apps, libs etc
