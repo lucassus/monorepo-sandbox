@@ -1,5 +1,5 @@
 .idea
 node_modules
 packages/*/dist
-packages/*/tsconfig.tsbuildinfo
+packages/*/*.tsbuildinfo
 yarn-error.log

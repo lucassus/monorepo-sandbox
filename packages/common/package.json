@@ -8,7 +8,7 @@
     "@sandbox/string-utils": "1.0.0"
   },
   "scripts": {
-    "clean": "rimraf dist tsconfig.tsbuildinfo",
+    "clean": "rimraf dist *.tsbuildinfo",
     "typecheck": "yarn tsc --noEmit",
     "build": "yarn tsc --build"
   }
