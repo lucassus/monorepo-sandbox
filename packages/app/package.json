@@ -6,8 +6,12 @@
     "@sandbox/common": "1.0.0"
   },
   "scripts": {
-    "clean": "rimran dist",
+    "clean": "rimraf dist",
     "build": "yarn tsc --build",
+    "dev": "ts-node src/index.ts",
     "start": "node dist/index.js"
+  },
+  "devDependencies": {
+    "ts-node": "9.0.0"
   }
 }
