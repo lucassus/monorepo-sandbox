@@ -1,3 +1,3 @@
 module.exports = {
-  projects: ["<rootDir>/packages/common", "<rootDir>/packages/string-utils"]
+  projects: ["<rootDir>/libs/common", "<rootDir>/libs/string-utils"]
 };
