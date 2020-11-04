@@ -8,4 +8,5 @@
 
 - [x] TypeScript composite
 - [ ] Fix ctrl+click in Intellij
-- [ ] Add tests
+- [ ] Add some tests
+- [ ] Add eslint
