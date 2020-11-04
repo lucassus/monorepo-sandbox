@@ -1,8 +1,9 @@
 {
-  "name": "@monorepo/app",
+  "name": "@sandbox/app",
   "version": "1.0.0",
+  "license": "MIT",
   "dependencies": {
-    "@monorepo/common": "1.0.0"
+    "@sandbox/common": "1.0.0"
   },
   "scripts": {
     "start": "node src/index.js"

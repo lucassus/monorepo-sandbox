@@ -1,3 +1,3 @@
-const { sayHello } = require("@monorepo/common");
+const { sayHello } = require("@sandbox/common");
 
 console.log(sayHello("luke"));

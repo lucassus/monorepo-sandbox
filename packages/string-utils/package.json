@@ -1,6 +1,7 @@
 {
-  "name": "@monorepo/string-utils",
+  "name": "@sandbox/string-utils",
   "version": "1.0.0",
+  "license": "MIT",
   "main": "dist/index",
   "types": "dist/index",
   "scripts": {
