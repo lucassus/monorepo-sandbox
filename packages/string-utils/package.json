@@ -1,12 +1,9 @@
 {
-  "name": "@sandbox/common",
+  "name": "@sandbox/string-utils",
   "version": "1.0.0",
   "license": "MIT",
   "main": "dist/index",
   "types": "dist/index",
-  "dependencies": {
-    "@sandbox/string-utils": "1.0.0"
-  },
   "scripts": {
     "clean": "rimraf dist",
     "build": "yarn tsc --build"
