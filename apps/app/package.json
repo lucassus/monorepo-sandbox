@@ -5,7 +5,6 @@
   "dependencies": {
     "@sandbox/common": "1.0.0"
   },
-  "devDependencies": {},
   "scripts": {
     "clean": "rimraf dist",
     "typecheck": "yarn tsc --noEmit",
