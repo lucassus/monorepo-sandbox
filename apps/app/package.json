@@ -8,11 +8,9 @@
   "scripts": {
     "clean": "rimraf dist",
     "typecheck": "yarn tsc --noEmit",
+    "test": "echo Skipping...",
     "build": "yarn tsc --build",
     "dev": "ts-node src/index.ts",
     "start": "node dist/index.js"
-  },
-  "devDependencies": {
-    "ts-node": "9.0.0"
   }
 }

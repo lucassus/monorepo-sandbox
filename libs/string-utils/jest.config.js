@@ -1,9 +1,4 @@
-const package = require("./package.json");
-
 module.exports = {
-  displayName: {
-    color: "red",
-    name: package.name
-  },
+  testEnvironment: "node",
   preset: "ts-jest"
 };
