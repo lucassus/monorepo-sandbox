@@ -22,5 +22,8 @@ jobs:
       - name: Test
         run: yarn test
 
+      - name: Test web app
+        run: yarn @sandbox/web test
+
       - name: Start
         run: yarn start
