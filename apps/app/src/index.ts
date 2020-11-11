@@ -1,3 +1,3 @@
-import { sayHello } from "@sandbox/common";
+import { sayHello } from '@sandbox/common'
 
-console.log(sayHello("luke"));
+console.log(sayHello('luke'))

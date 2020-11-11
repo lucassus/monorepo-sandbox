@@ -1,10 +1,10 @@
-const package = require("./package.json");
+const pkg = require('./package.json')
 
 module.exports = {
   displayName: {
-    name: package.name,
-    color: "blue"
+    name: pkg.name,
+    color: 'blue'
   },
-  testEnvironment: "node",
-  preset: "ts-jest"
-};
+  testEnvironment: 'node',
+  preset: 'ts-jest'
+}

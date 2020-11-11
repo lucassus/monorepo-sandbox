@@ -1,5 +1,5 @@
-import { sayHello } from "./sayHello";
+import { sayHello } from './sayHello'
 
-test(".sayHello", () => {
-  expect(sayHello("luke")).toEqual("Hello Luke!");
-});
+test('.sayHello', () => {
+  expect(sayHello('luke')).toEqual('Hello Luke!')
+})

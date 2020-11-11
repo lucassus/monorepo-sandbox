@@ -1,5 +1,5 @@
-import { capitalize } from "@sandbox/string-utils";
+import { capitalize } from '@sandbox/string-utils'
 
-export function sayHello(name: string): string {
-  return `Hello ${capitalize(name)}!`;
+export function sayHello (name: string): string {
+  return `Hello ${capitalize(name)}!`
 }
